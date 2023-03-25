@@ -1,0 +1,30 @@
+#gameWrapper{
+    text-align: center;
+    font-family: 'Cantora One', sans-serif;
+}
+
+.cell{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px 2px black;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto;
+}
+
+#restartBtn{
+    width: 80px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+   
+}
+
+
